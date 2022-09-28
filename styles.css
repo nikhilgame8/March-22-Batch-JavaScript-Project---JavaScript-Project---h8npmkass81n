@@ -1,1 +1,127 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #001f4f;
+    font-family: "Raleway", sans-serif;
+}
+h1 {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    width: 300px;
+    transform: translateX(-50%);
+    background-color: #ff851b;
+    color: #fff;
+    font-weight: 100;
+    font-family: cursive;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.tip-calculator{
+    border-radius: 15px;
+    background: #9ff1f1;
+    width: 580px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: auto;
+}
+.mainContainer{
+    border-radius: 15px;
+    background: #ccddff;
+    width: 500px;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+}
+.left-container{
+    padding: 10px;
+}
+.tip{
+    background: #006666;
+    color: white;
+    border-radius: 5px;
+    margin: 3px 2px;
+    border-style: none;
+    padding: 5px 10px;
+    width: 60px;
+}
+.custom-tip{
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    background: rgb(237, 237, 237);
+    width: 65px;
+    height: 30px;
+    font-family: cursive;
+    font-size: 10px;
+}
+.left-container small{
+    color:#686464;
+    font-family: cursive;
+}
+.inputBill{
+    padding: 5px 5px;
+    margin: 9px 0px 20px 0px;
+    border-radius: 5px;
+    border-style: none;
+    background: rgb(237, 237, 237);
+    width: 200px;
+    height: 25px;
+    font-family: cursive;
+    font-size: 10px;
+}
+.tip:hover{
+    background: #009933;
+    transition-duration: 0.2s;
+}
+.reset{
+    position: relative;
+    background: #009933;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border-style: none;
+    padding: 5px 10px;
+    width: 90%;
+    height: 40px;
+    top:50px;
+    left: 2px;
+}
+.right-container{
+    background: #006666;
+    border-radius: 15px;
+    height: 280px;
+    width: 500px;
+}
+.right-container .displayTip{
+    padding: 20px;
+}
+.right-container small{
+    color: #e6ffe6;
+}
+.right-container big{
+    color: #00ff55;
+    align-items: right;
+}
+.reset:hover{
+    background: #004d1a;
+    transition-delay: 0.2s;
+}

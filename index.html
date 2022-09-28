@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="tip-calculator">
+        <h1>TIP CALCULATOR</h1>
+        <div class="mainContainer">
+            <div class="left-container">
+                <small>Bill</small>
+                <div>
+                    <input type="number" class="inputBill" id="bill" name="quantity" min="1" placeholder="0.00">
+                </div>
+                <small>Select Tip %</small>
+                <div>
+                    <button class="tip" value="0.05">5%</button>
+                    <button class="tip" value="0.1">10%</button>
+                    <button class="tip" value="0.15">15%</button>
+                    <button class="tip" value="0.25">25%</button>
+                    <button class="tip" value="0.50">50%</button>
+                    <input type="number" class="custom-tip" min="1" id="custom-tip" placeholder="CUSTOM" oninput="customTip(event)">
+                </div><br><br>
+                <small>Number of People</small>
+                <div>
+                    <input type="number" class="inputBill" min="1" id="people" placeholder="0">
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="displayTip">
+                    <small>Tip Amount<br><span>/ person</span></small>
+                    <big id="perPerson">$ 0.00</big>
+                </div>
+                <div class="displayTip">
+                    <small>Total<br><span>/ person</span></small>
+                    <big id="totalPerson">$ 0.00</big>
+                </div>
+                <div>
+                    <button class="reset" onclick="reset()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>

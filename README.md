@@ -1,19 +1,12 @@
-****Tip-Calculator
+Tip-Calculator
+Decided how much to tip? After having a wonderfull Lunch/Dinner, calculating it then spliting the amount into group members, calcutaing the total amount including the bill and the tip, then dividing the that amount into the group.
 
-To calculate the tip you want to give after a nice dinner/lunch can be a bit hasty task to calculate , On top of that if you want to split the bill it makes it more calculation.
+Do it all or just calculate the tip amount , with ease in one place no hassel going through the calculator or calculating on you own, just enter the bill amount, tip % , and no of members in group and you get all the nessesary calculated amount in a matter of seconds.
 
+Lessons Learned It was a wonderfull learning all the Html , css and JavaScript basics yet more to learn , but for me implementing things are more fun than learning So took a shot at making a tip calculator using the things I learned till now.
 
-****Guide to use the application
+Tech Stack :-
+HTML,Cascading Style Sheet(CSS),JavaScript(JS)
 
-Enter the bill amount
-Change the bill percentage to your liking
-Change the no. of people splitting the bill
-You'll get the follow details :
-Total bill amount
-Total bill per head
-Tip per person is giving
-
-
-****Tech Stack:-
-
-HTML, CSS, JavaScript
+Role:-
+Developer
